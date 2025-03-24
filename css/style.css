@@ -1,17 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    
 
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    font-family: serif;
+    background-image: linear-gradient(45deg, rgb(15, 10, 82), rgb(23, 75, 216));
+    background-attachment: fixed;
 }
 
 
 header{
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     text-align: center;
     padding: 1;
@@ -19,6 +21,75 @@ header{
 .img-perfil{
     width: 10%;
     border-radius: 50%;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.conteudo{
+    /* background-color: white !important; */
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100%;
+}
+
+a{
+    text-decoration:wavy !important;
+    color:black;
+}
+
+.principal{
+    text-align: center;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+
+}
+
+.img-icone{
+    width:100% !important;
+}
+.txt-icone{
+    font-size: 200% !important;
+}
+
+
+
+@media(min-width: 200px) and (max-width:768px){
+    .img.icone{
+        width: 250% !important;}
+
+    .txt-icone{
+         font-size: 120%;
+    }
+
+    .conteudo{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;}
+
+        .principal{
+            text-align: center;
+            margin-left: 10% !important;
+            margin-right: 25% !important;
+            margin-top: 1% !important;
+            margin-bottom: 50% !important;
+        }
+        
+
+    
+    .img-perfil{
+        width: 10%;
+        border-radius: 30% !important;
+    }
 }
 
 /* .txt-perfil{

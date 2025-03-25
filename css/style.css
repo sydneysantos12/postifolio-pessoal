@@ -53,17 +53,22 @@ a{
 }
 
 .img-icone{
-    width: 100% !important;
+    width: 100% ;
 }
 .txt-icone{
     font-size: 200% !important;
+}
+
+.img-icone-inst{
+    width: 200%;
+
 }
 
 
 
 @media(min-width: 200px) and (max-width:768px){
     .img.icone{
-        width: 300% !important;}
+        width: 10% !important;}
 
     .txt-icone{
          font-size: 120%;
